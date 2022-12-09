@@ -5,7 +5,7 @@ let config = {
         API_URL: 'http://localhost:5001/api/v1'
     },
     production: {
-        API_URL: 'https://dunglu-back.herokuapp.com/api/client'
+        API_URL: 'http://localhost:5001/api/v1'
     },
 };
 
