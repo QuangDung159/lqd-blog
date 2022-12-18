@@ -177,7 +177,7 @@ export default {
       type: Object,
       default: () => {
         return {
-          API_URL: 'http://localhost:5001/api/v1'
+          API_URL: 'https://lqd-blog-be-nodejs.onrender.com/api/v1'
         }
       }
     }
