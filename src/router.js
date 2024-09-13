@@ -1,8 +1,9 @@
-import HomeComp from "./components/HomeComp";
-import BlogEntriesComp from "./components/BlogEntriesComp";
-import AboutComp from "./components/AboutComp";
-import BlogComp from "./components/BlogComp";
-import BlogByAlbum from "./components/BlogByAlbum";
+import HomeComp from "./components/HomeComp.vue";
+import BlogEntriesComp from "./components/BlogEntriesComp.vue";
+import AboutComp from "./components/AboutComp.vue";
+import BlogComp from "./components/BlogComp.vue";
+import BlogByAlbum from "./components/BlogByAlbum.vue";
+import WellKnow from "./components/WellKnow.vue";
 
 const routes = [
     {
@@ -24,6 +25,10 @@ const routes = [
     {
         path: '/blogs/Album/:albumId',
         component: BlogByAlbum
+    },
+    {
+        path: '/.well-known/assetlinks.json',
+        component: WellKnow
     }
 ];
 
